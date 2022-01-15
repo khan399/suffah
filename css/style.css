@@ -104,5 +104,9 @@ body{
 	.keep{
 		margin-top: 50px;
 	}
+	.master{
+		width: 100%;
+		height: 100%;
+	}
 	
 }
