@@ -71,6 +71,74 @@ body{
 	border-radius: 10px;
 }
 
+
+/* navigation starts */
+
+.nav{
+	width: 100%;
+	height: auto;
+	/* text-align: center; */
+	position: relative;
+	right: -110px;
+}
+
+
+.nav ul{
+	list-style: none;
+}
+.nav li{
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 50px;
+	margin-left: 5px;
+}
+.nav a{
+	color: white;
+	text-decoration: none;
+	/* padding: 10px; */
+	/* text-align: center; */
+	font-size: 22px;
+}
+a:hover{
+	/* background-color: aqua; */
+	color: gray;
+}
+a:visited{
+	color:ivory;
+}
+
+/* Home page . html css */
+
+	.text{
+		width: 60%;
+		height: 650px;
+		margin: 0 auto;
+		color: #fff;
+		text-align: center;
+	}
+	.text h1{
+		font-size: 40px;
+		margin-top: 150px;
+		word-spacing: 5px;
+		/* letter-spacing: 20px; */
+		margin-bottom: 80px;
+	}
+	.text h2{
+		font-size:25px;
+		margin-bottom: 40px;
+	}
+	.text .main{
+		line-height: 30px;
+		text-align: left;
+		font-size: 20px;
+		text-align: justify;
+		white-space: 18px;
+	}
+
+
+
+
 @media only screen and (max-width:1200px) {
 	.master{
 		width: 100%;
